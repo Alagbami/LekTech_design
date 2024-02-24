@@ -43,7 +43,7 @@ const Navbar = ({
             ${isActive(item.value) ? "bg-primary-green" : "hover:bg-primary-grey-200"}
             `}
           >
-            {/* If value is an array means it's a nav element with sub options i.e., dropdown */}
+            {/* If value is an array means it's a nav element with sub options eg., dropdown */}
             {Array.isArray(item.value) ? (
               <ShapesMenu
                 item={item}
